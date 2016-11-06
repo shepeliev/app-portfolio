@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context="com.shepeliev.appportfolio.MainActivity">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_activity_title"
+            android:layout_marginBottom="20dp"
+            style="@android:style/TextAppearance.Large" />
+
+    <Button
+            android:layout_height="wrap_content"
+            style="@style/AppButton"
+            android:text="@string/popular_movies"
+            android:onClick="onButtonClick" />
+
+    <Button
+            android:layout_height="wrap_content"
+            style="@style/AppButton"
+            android:text="@string/stock_hawk"
+            android:onClick="onButtonClick"/>
+
+    <Button
+            android:layout_height="wrap_content"
+            style="@style/AppButton"
+            android:text="@string/build_it_bigger"
+            android:onClick="onButtonClick"/>
+
+    <Button
+            android:layout_height="wrap_content"
+            style="@style/AppButton"
+            android:text="@string/make_your_app_material"
+            android:onClick="onButtonClick"/>
+
+    <Button
+            android:layout_height="wrap_content"
+            style="@style/AppButton"
+            android:text="@string/go_ubiquitous"
+            android:onClick="onButtonClick"/>
+
+    <Button
+            android:layout_height="wrap_content"
+            style="@style/AppButton"
+            android:text="@string/capstone"
+            android:backgroundTint="@color/colorButtonAccent"
+            android:onClick="onButtonClick" />
+</LinearLayout>
